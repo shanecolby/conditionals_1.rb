@@ -1,15 +1,14 @@
 class Store_items
 
-    def initialize (type, color, price)
+    def initialize (input_type, input_color, input_price)
         @type = input_type
         @color = input_color
         @price = input_price
-        p "hello"
     end
 
     
     def print_outfit
-        p "The price of this item is #{@price}. It is #{@price} and it is made for #{@type} "
+        p "The price of this item is $#{@price}. It is #{@color} and it is made for #{@type} "
     end
 
 
