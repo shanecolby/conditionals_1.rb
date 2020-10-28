@@ -2,10 +2,10 @@ class Store_items
     attr_reader :type
     
 
-    def initialize (input_type, input_color, input_price)
-        @type = input_type
-        @color = input_color
-        @price = input_price
+    def initialize (input_options)
+        @type = input_options[:type]
+        @color = input_options[:color]
+        @price = input_options[:price]
     end
 
     
@@ -19,8 +19,8 @@ class Store_items
 
 end
 
-outfit1 = Store_items.new("t-shirt", "red", 15)
-outfit2 = Store_items.new("athletic","blue", 45)
+outfit1 = Store_items.new( type: "t-shirt", color: "red", price: 15)
+outfit2 = Store_items.new( type: "athletic", color: "blue", price: 45)
 
 outfit1.print_outfit
 outfit2.print_outfit
