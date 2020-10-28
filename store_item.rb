@@ -11,12 +11,9 @@ class Store_items
         p "The price of this item is $#{@price}. It is #{@color} and it is made for #{@type} "
     end
 
-
-
-
-
-
-
+    def type
+        @type
+    end
 
 end
 
@@ -25,3 +22,5 @@ outfit2 = Store_items.new("athletic","blue", 45)
 
 outfit1.print_outfit
 outfit2.print_outfit
+
+p outfit2.type
