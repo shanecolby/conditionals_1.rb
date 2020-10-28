@@ -1,4 +1,6 @@
 class Store_items
+    attr_reader :type
+    
 
     def initialize (input_type, input_color, input_price)
         @type = input_type
@@ -11,9 +13,9 @@ class Store_items
         p "The price of this item is $#{@price}. It is #{@color} and it is made for #{@type} "
     end
 
-    def type
-        @type
-    end
+  #  def type
+   #    @type
+   # end
 
 end
 
