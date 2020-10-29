@@ -32,13 +32,18 @@ class Manager < Employee
 
   def give_all_raises
     p "you get a raise"
-    p @employees[0].give_annual_raise
-    p @employees[1].give_annual_raise
-    
+    index = 0
+    while index < @employees.length
+      @employees[index].give_annual_raise
+      index += 1
+    end
   end
 
   def fire_all_employees
-    @active = false
+    p "fire all"
+    @employees.each do |employee|
+      employee.active = false
+    end
   end
 
   def send_report
@@ -53,3 +58,6 @@ manager.print_info
 manager.send_report
 manager.give_all_raises 
 manager.fire_all_employees
+manager.employees
+employee1.print_info
+employee2.print_info
