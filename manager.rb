@@ -32,6 +32,9 @@ class Manager < Employee
 
   def give_all_raises
     p "you get a raise"
+    p @employees[0].give_annual_raise
+    p @employees[1].give_annual_raise
+    
   end
 
   def fire_all_employees
