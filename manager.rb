@@ -25,6 +25,7 @@ employee2.print_info
 
 
 class Manager < Employee
+  attr_reader :employees
   def initialize(input_options)
     super
     @employees = input_options[:employees]
