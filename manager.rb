@@ -31,7 +31,7 @@ class Manager < Employee
   end
 
   def give_all_raises
-    @salary = 1.05 * @salary
+    p "you get a raise"
   end
 
   def fire_all_employees
