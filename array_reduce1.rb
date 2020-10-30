@@ -6,4 +6,3 @@ while index < number.length
   index += 1
 end
 p sum
-  
