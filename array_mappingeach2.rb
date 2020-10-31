@@ -1,6 +1,6 @@
 numbers = [2,4,6,8,10]
-new_numbers = []
+string_array = []
 numbers.each do |number|
-  new_numbers << number / 2
+  string_array << number.to_s
 end
-p new_numbers
+p string_array
