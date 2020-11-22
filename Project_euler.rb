@@ -33,3 +33,13 @@ def difference_of_sum_of_squares(input_number)
 end
 p sum_of_squares
 p square_of_sum ** 2 - sum_of_squares
+
+
+# def recursive_loop(number)
+#   if number == 0
+#     return number
+#   end
+#   p number
+#   recursive_loop(number - 1)
+# end
+# recursive_loop(5)
