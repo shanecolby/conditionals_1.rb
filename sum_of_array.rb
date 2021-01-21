@@ -1,6 +1,6 @@
 def calculate_sum(array)
-  sum = 0
-  index = 0
+  sum = array[0]
+  index = 1
   while index < array.length
     sum += array[index]
     index += 1
