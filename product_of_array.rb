@@ -1,6 +1,6 @@
 def product(array)
-  index = 1
-  product = array[0]
+  index = 0
+  product = array[index]
   while index < array.length
     product = product * array[index]
     index += 1
