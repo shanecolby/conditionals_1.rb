@@ -1,8 +1,8 @@
-def reverse(array)
-  index = array.length - 1
+def reverse(string)
+  index = string.length - 1
   result = []
   while index >= 0
-    result.push(array[index])
+    result.push(string[index])
     index -= 1
   end
 
@@ -13,4 +13,4 @@ def reverse(array)
 
 
 end
-p reverse(["h","e","l","l","o"])
+p reverse("mississippi")
