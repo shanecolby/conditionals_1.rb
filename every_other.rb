@@ -1,10 +1,11 @@
 def every_other(array)
   index = 0
+  new_array = []
   while index < array.length
-    p array[index]
+    new_array << array[index]
     index += 2
   end
-  # return array
+  return new_array
 
 
 end
