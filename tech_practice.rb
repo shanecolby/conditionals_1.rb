@@ -15,6 +15,7 @@ def greatestNumber(array)
   return number
 
 
+
 end
 p greatestNumber([5,17,-4,20,12])
 
