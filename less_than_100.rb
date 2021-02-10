@@ -8,6 +8,7 @@ def less_than_100(array)
     index += 1
   end
   return new_array
+ 
 
 
 end
