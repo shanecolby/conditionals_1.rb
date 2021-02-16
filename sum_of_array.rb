@@ -10,14 +10,15 @@ def calculate_sum(array)
 end
 p calculate_sum([1,2,3,4,5])
 
-def calculate_sum(array)
-  sum = array[0]
+def sum(array)
   index = 1
+  sum = array[0]
   while index < array.length
-    sum += array[index]
+    sum = sum + array[index]
     index += 1
-  end
-  return sum
+end
+return sum
+
 
 end
-p calculate_sum([2,4,6,8,10])
+p sum([1,2,3,4,5])
