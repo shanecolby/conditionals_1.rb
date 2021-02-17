@@ -16,6 +16,5 @@ def product(array)
   end
   return product
 
-
 end
 p product([1,2,3])
