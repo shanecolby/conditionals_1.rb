@@ -27,7 +27,6 @@ while index < items.length
   price = price_hash[name]
   combined_hash[name] = {price: price, color: color, weight: weight}
   index += 1
-  
 end
 p combined_hash
 

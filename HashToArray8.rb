@@ -4,7 +4,7 @@ hash.each do |key,value|
   array << key
   array << value
 end
-p array 
+p array
 
 
 def hashtoarray(hash)

@@ -19,6 +19,5 @@ while index < items.length
     cheapest_item = item
   end
   index += 1
-
 end
 p cheapest_item
