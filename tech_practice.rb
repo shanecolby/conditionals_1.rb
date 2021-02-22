@@ -61,7 +61,6 @@ def pairedNumber(array)
     index += 1
   end
   return number
-
 end
 p pairedNumber([5,2,9,7,2,6])
 
