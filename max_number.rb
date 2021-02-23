@@ -1,5 +1,13 @@
 def max_number(array)
-  array.sort.last
+  index = 0
+  number = array[index]
+  while index < array.length
+    if array[index] > number
+      number = array[index]
+    end
+    index += 1
+  end
+  return number
 
  
 end

@@ -13,7 +13,6 @@ def greatestNumber(array)
     index += 1
   end
   return number
-
 end
 p greatestNumber([5,17,-4,20,12])
 

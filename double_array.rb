@@ -15,6 +15,7 @@ def double(array)
     p array[index] * 2
     index += 1
   end
+  
     
 
 end
