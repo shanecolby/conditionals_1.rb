@@ -17,6 +17,8 @@ while index < numbers.length
   value = numbers[index][1]
   number_pair_hash[key] = value
   index += 1
+
+
 end
 p number_pair_hash
 
