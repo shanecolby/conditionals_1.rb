@@ -13,7 +13,7 @@ p product([1,2,3,4,5])
 
 def product(array)
   index = 0
-  product = array[index]
+  product = array[0]
   while index < array.length
     product = product * array[index]
     index += 1
